@@ -1,0 +1,20 @@
+{
+  "name": "AnalogKeys",
+  "version": "0.0.1",
+  "keywords": "Analog,Keys,Input",
+  "description": "Library used to read Keys connected to an analog input pin via a resistor network",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedCali/AnalogKeys.git"
+  },
+  "authors": [
+    {
+      "name": "Bastian Geier",
+      "email": "mail@bastiangeier.de",
+      "url": "https://github.com/RedCali/AnalogKeys.git",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino,avr,all,*",
+  "platforms": "*"
+}
