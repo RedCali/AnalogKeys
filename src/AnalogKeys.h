@@ -67,15 +67,15 @@ class AnalogKeys {
     ~AnalogKeys() {};
 
     inline KeyValues Read(uint16_t anlValue) {
-      if ((ANL_RIGHT_Lower >= anlValue ) && (anlValue <= ANL_RIGHT_Upper) ) {
+      if ((ANL_RIGHT_Lower <= anlValue ) && (anlValue <= ANL_RIGHT_Upper) ) {
         return RIGHT;
-      } else if ((ANL_UP_Lower >= anlValue ) && (anlValue <= ANL_UP_Upper) ) {
+      } else if ((ANL_UP_Lower <= anlValue ) && (anlValue <= ANL_UP_Upper) ) {
         return UP;
-      } else if ((ANL_DOWN_Lower >= anlValue ) && (anlValue <= ANL_DOWN_Upper) ) {
+      } else if ((ANL_DOWN_Lower <= anlValue ) && (anlValue <= ANL_DOWN_Upper) ) {
         return DOWN;
-      } else if ((ANL_LEFT_Lower >= anlValue ) && (anlValue <= ANL_LEFT_Upper) ) {
+      } else if ((ANL_LEFT_Lower <= anlValue ) && (anlValue <= ANL_LEFT_Upper) ) {
         return LEFT;
-      } else if ((ANL_SELECT_Lower >= anlValue ) && (anlValue <= ANL_SELECT_Upper) ) {
+      } else if ((ANL_SELECT_Lower <= anlValue ) && (anlValue <= ANL_SELECT_Upper) ) {
         return SELECT;
       }
       return NONE_FF;

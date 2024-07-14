@@ -4,9 +4,7 @@
 //https://rydepier.wordpress.com/2016/03/30/arduino-and-nokia-lcd4884-display-shield/
 
 
-// LCD 44780 shield:
-//https://www.bastelgarage.ch/lcd-1602-keypad-shield-fur-arduino-uno
-
+// LCD 44780 shield
 #include "AnalogKeys.h"
 #include <LiquidCrystal.h>
 // initialize the library with the numbers of the interface pins
